@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flmogradient_login"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imgView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Lin1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/flomologo_long" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:id="@+id/Lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtEmail"
+            android:hint="Email."
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="Name"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/profile"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtID"
+            android:hint="Student ID Ex:207900"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_id"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtUsername"
+            android:hint="FMU Username"
+            android:background="@drawable/et_bg"
+            android:maxLength="8"
+            android:drawableLeft="@drawable/ic_verified_user"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPhone"
+            android:hint="Phone No."
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_phone"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPass"
+            android:hint="Password"
+            android:background="@drawable/et_bg"
+            android:drawableLeft="@drawable/ic_lock"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Lin1"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgbutton"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>
