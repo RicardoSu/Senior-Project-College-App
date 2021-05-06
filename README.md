@@ -29,7 +29,7 @@
 <h2 align="center">Preview 📱</h2>
 
    <p align="center">
-      <img src="https://github.com/RicardoSu/Senior-Project-FMU-Mobile/blob/main/Images/fmu-mobile.gif" width="400" alt="Demo">
+      <img src="https://github.com/RicardoSu/Senior-Project-FMU-Mobile/blob/main/Images/fmu-mobile.gif" width="200" alt="Demo">
    </p>
    
 ---
