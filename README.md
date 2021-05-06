@@ -89,10 +89,14 @@
 
    ---
 
-   >This project was developed with ❤️ by **[@Ricardo Suarez](https://www.linkedin.com/in/ricardo-suarez-lima/).<br>
+   >This project was developed with ❤️ by **[@Ricardo Suarez](https://www.linkedin.com/in/ricardo-suarez-lima/)**.<br>
    If it helped you, give ⭐, contribute, it will help me too 😉
 
 ---
 
-   <div align="center">
+         <div align="center">
+
+   [![Linkedin Badge](https://img.shields.io/badge/-Ricardo%20Suarez-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ricardo-suarez-lima/)](https://www.linkedin.com/in/ricardo-suarez-lima/)
+
+   </div>
 
