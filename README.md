@@ -1,7 +1,7 @@
 <h1 align="center">FMU MOBILE 📱</h1>
 
 <p align="center">
-      <img src="https://github.com/RicardoSu/Senior-Project-FMU-Mobile/blob/main/Images/FMU%20Mobile.png">
+      <img src="https://github.com/RicardoSu/Senior-Project-FMU-Mobile/blob/main/Images/FMU%20Mobile.png" width="200" >
 </p>
 
    <h2 align="center">Topics 📋</h2>
@@ -33,3 +33,29 @@
    </p>
    
 ---
+
+<h2 align="center">Functionalities 🛠️</h2>
+
+   <p>
+   
+- Home Button:
+  -  <a href="https://fmuniv.edu/">FMU Website</a>🦁
+  -  Student Email📧
+  -  Self-Service
+  -  Blackboard🏫
+  -  Contacts📝
+  -  Cyberzone (IT Help)
+
+- Profile Button:
+  -  Edit Profile
+  -  Student Grades 💯
+  -  Schedule
+  -  Registrar Office
+
+- Register and Login in app, 🔒
+- Calendar 📅
+   
+   </p>
+
+
+
