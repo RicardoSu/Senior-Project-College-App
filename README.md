@@ -23,3 +23,13 @@
       Use FMU Mobile to access your student data, find your class schedule and grades, check blackboard, and get contact with the office. It’s FMU in the palm of your hand!
 
 </p>
+
+---
+
+<h2 align="center">Preview 📱</h2>
+
+   <p align="center">
+      <img src="https://github.com/RicardoSu/Senior-Project-FMU-Mobile/blob/main/Images/fmu-mobile.gif" alt="Demo">
+   </p>
+   
+---
